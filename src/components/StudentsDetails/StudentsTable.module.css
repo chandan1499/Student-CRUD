@@ -1,0 +1,18 @@
+.MuiPagination-ul {
+    align-items: center;
+}
+
+.filterContainer {
+    width: fit-content;
+    margin: 20px auto;
+    
+}
+
+.inputBox {
+    width: 200px;
+    margin: 0px 10px !important;
+}
+
+.filterBtn {
+    height: 40px !important;
+}
