@@ -20,7 +20,7 @@ function createData(name, age, gender, city, id) {
 
 export default function StudentTable() {
     let serachQuery = useLocation().search;
-    const queryPage = Number(new URLSearchParams(serachQuery).get('page'));
+    const queryPage = Number(new URLSearchParams(serachQuery).get('page') || 1);
     const [page, setPage] = React.useState(queryPage);
     const [totalPage, setTotalPage] = React.useState(1);
     const [rows, setRows] = React.useState([]);
